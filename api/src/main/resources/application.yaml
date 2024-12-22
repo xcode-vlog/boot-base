@@ -11,3 +11,11 @@ spring:
       hibernate:
         format_sql: true
     show-sql: true
+
+token:
+  secret:
+    key: SpringBootJWTHelperTokenSecretKeyValue123!@#
+  access-token:
+    plus-hour: 1
+  refresh-token:
+    plus-hour: 12
